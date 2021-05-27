@@ -23,7 +23,7 @@
     <div id="wrapper">
         <div class="overlay"></div>
         <!-- Sidebar Start -->
-        <nav class="fixed-top align-top toggled" id="sidebar-wrapper" role="navigation">
+        <nav class="fixed-top align-top toggled " id="sidebar-wrapper" role="navigation">
             <div class="simplebar-content" style="padding: 0px;">
                 <a class="sidebar-brand" href="index.html">
                     <span class="align-middle font-weight-bold fa-1x text-uppercase">College App</span>
@@ -36,13 +36,14 @@
                         </a>
                     </li>
                     <li class="">
-                        <a href="" class="nav-link  text-left " role="button">
-                            <i class="fas fa-newspaper text-white"></i> News and Events
+                        <a class="nav-link text-left" role="button">
+                            <i class="fas fa-school text-white"></i> News and Events
                         </a>
                     </li>
+
                     <li class="">
-                        <a href="" class="nav-link  text-left" role="button">
-                            <i class="fas fa-flag text-white"></i> Notices
+                        <a class="nav-link text-left" role="button">
+                            <i class="fas fa-user-plus text-white"></i> Notices
                         </a>
                     </li>
 
@@ -197,23 +198,33 @@
                                         </div>
                                         <!-- form start -->
                                         <form class="ml-5 mr-5" role="form">
-                                            <div class="box-body">
+                                            <div class="box-body row">
+                                                <div class="col-md-6">
                                                 <div class="form-group">
-                                                    <label for="exampleInputEmail1">Title</label>
+                                                    <label for="exampleInputTitle1">Title</label>
                                                     <input type="text" class="form-control" id="exampleInputTitle1" placeholder="Enter Title">
                                                 </div>
                                                 <div class="form-group">
-                                                    <label for="exampleInputPassword1">Date</label>
+                                                    <label for="exampleInputDate1">Date</label>
                                                     <input type="date" class="form-control" id="exampleInputDate1" placeholder="Password">
                                                 </div>
                                                 <div class="form-group">
-                                                    <label for="exampleInputPassword1">TextBox</label>
+                                                    <label for="exampleInputDes1">Description</label>
+                                                    <input type="text" class="form-control" id="exampleInputDes1" placeholder="Enter Description">
+                                                </div>
+                                            </div>
+
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <label for="exampleInputTextarea1">TextBox</label>
                                                     <textarea class="form-control" id="exampleInputTextarea1" placeholder="Enter Something"></textarea> </textarea>
                                                 </div>
                                                 <div class="form-group">
                                                     <label for="exampleInputFile">File input</label>
                                                     <input type="file" id="exampleInputFile">
                                                 </div>
+                                            </div>
+                                            <div class="col-md-6">
                                                 <div class="checkbox flex-column">
                                                     <label class="mr-2">
                                                         <input type="checkbox"> Check me out
@@ -229,7 +240,7 @@
                                             <!-- /.box-body -->
 
                                             <div class="box-footer">
-                                                <button type="submit" class="btn btn-primary">Submit</button>
+                                                <button type="submit" class="btn btn-primary mt-5">Submit</button>
                                             </div>
                                         </form>
                                     </div>
@@ -237,11 +248,11 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                     </div>
                     <!-- container-fluid -->
                 </div>
             </div>
-        </div>
+         </div>
         <!--page-content-wrapper -->
     </div>
     <!--wrapper -->
