@@ -498,3 +498,10 @@ textarea.form-control {
     border-color: none !important;
     font-size:9px;
 }
+
+.btn{
+    margin-top: 0px;
+}
+.btn-sm{
+    line-height:1;
+}
