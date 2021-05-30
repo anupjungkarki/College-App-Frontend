@@ -492,4 +492,9 @@ textarea.form-control {
 }
 
 
-
+.table .thead-dark th {
+    color: #fff;
+    background-color: #212529;
+    border-color: none !important;
+    font-size:9px;
+}
