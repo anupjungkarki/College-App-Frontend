@@ -11,3 +11,33 @@ $('a').click(function(){
     $(this).addClass('active');
     
 })
+
+// Js for Auto Add Semester fees-content
+    $('.amount').keyup(function() {
+     var sum = 0;
+    $('.amount').each(function() {
+        sum += Number($(this).val());
+    });
+    $('#total').val(sum);
+     
+});
+
+
+// Make Equal To all Semester
+    $(document).ready(function(){
+        $('#btn1').click(function(){
+        $('#sem2').val($('#sem1').val());
+        $('#sem3').val($('#sem1').val());
+        $('#sem4').val($('#sem1').val());
+        $('#sem5').val($('#sem1').val());
+        $('#sem6').val($('#sem1').val());
+        $('#sem7').val($('#sem1').val());
+        $('#sem8').val($('#sem1').val());
+        var sum = 0;
+        $('.amount').each(function() {
+        sum += Number($(this).val());
+     });
+    $('#total').val(sum);
+    });
+});
+
