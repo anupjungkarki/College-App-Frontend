@@ -41,3 +41,12 @@ $('a').click(function(){
     });
 });
 
+//File upload hide and show 
+$(document).ready(function() {
+  $("#checkMark1").click(function() {
+    $("#form1").toggle();
+  });
+   $("#checkMark2").click(function() {
+    $("#form2").toggle();
+  });
+});
