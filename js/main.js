@@ -1,30 +1,28 @@
   // For Hiding the Nav Bar
-        $('#bar').click(function() {
-            $(this).toggleClass('open');
-            $('#page-content-wrapper ,#sidebar-wrapper').toggleClass('toggled');
-
-        });
+$('#bar').click(function() {
+  $(this).toggleClass('open');
+    $('#page-content-wrapper ,#sidebar-wrapper').toggleClass('toggled');
+});
 
 
 $('a').click(function(){
-    $('a').removeClass('active');
-    $(this).addClass('active');
+  $('a').removeClass('active');
+   $(this).addClass('active');
     
 })
 
 // Js for Auto Add Semester fees-content
-    $('.amount').keyup(function() {
-     var sum = 0;
-    $('.amount').each(function() {
+ $('.amount').keyup(function() {
+   var sum = 0;
+   $('.amount').each(function() {
         sum += Number($(this).val());
     });
-    $('#total').val(sum);
-     
+     $('#total').val(sum);   
 });
 
 
 // Make Equal To all Semester
-    $(document).ready(function(){
+  $(document).ready(function(){
         $('#btn1').click(function(){
         $('#sem2').val($('#sem1').val());
         $('#sem3').val($('#sem1').val());
