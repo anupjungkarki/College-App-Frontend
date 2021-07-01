@@ -195,70 +195,65 @@
                         <div class="row">
                             <!-- column start -->
                             <div class="col-md-12 mt-4">
-                                <div class="card">
-                                   <!-- column start -->
-                                    <div class="container table-responsive mt-4">
-                                      <div class="row ml-5 mr-5 mt-5">
-                                        <div class="col-md-4">
-                                               <div class="form-group ">
-                                                 <label>Select Program</label>
-                                                   <select class="form-control" name="semester_id" >
-                                                     <option value="0" selected="true" disabled="true">Programs</option>
-                                                     <option value="">BIT</option>
-                                                     <option value="">MGMT</option>
-                                                     <option value="">CM</option>
-                                                     <option value="">GM</option>
-                                                  </select>
-                                                </div>
-                                          </div>
-                                        <div class="col-md-4">
-                                               <div class="form-group">
-                                                 <label>Select Year</label>
-                                                   <select class="form-control" name="semester_id" >
-                                                     <option value="0" selected="true" disabled="true">Year</option>
-                                                     <option value="">1</option>
-                                                     <option value="">2</option>
-                                                     <option value="">3</option>
-                                                     <option value="">4</option>
-                                                  </select>
-                                                </div>
-                                        </div>
-                                        <div class="col-md-4 go_button">
-                                            <button class="btn btn-primary btn-danger">GO</button>
+                                <div class="card mb-4">
+                                    <div class="card-body">
+                                        <h1 class="h3 mb-0 text-dark-800 float-left">User Table</h1>
+
+                                        <div class="float-right">
+                                            <a href="#"
+                                                class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i
+                                                    class="fas fa-plus text-white mr-1"></i>
+                                                Role</a>
+                                            <a href="#"
+                                                class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i
+                                                    class="fas fa-plus text-white mr-1"></i>
+                                                Register</a>
                                         </div>
 
-                                        <table class="table table-bordered table-hover ml-3">
-                                            <thead class="thead-default">
-                                                <tr>
-                                                    <th scope="col">SN</th>
-                                                    <th scope="col">Name</th>
-                                                    <th scope="col">Action</th>
-                                                </tr>
-                                            </thead>
-                                            <tbody>
-                                                <tr>
-                                                    <th scope="row">1</th>
-                                                    <td>Jit Bahadur Rana</td>
-                                                    <td>
-                                                          <a href=""><i class="fa fa-edit btn btn-info btn-sm"></i></a>
-                                                          <a href=""><i class="fa fa-trash-alt btn btn-danger btn-sm"></i></a>
-                                                    </td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
+                                        <div class="table-responsive">
+                                            <table class="table table-bordered" id="dataTable" width="100%"
+                                                cellspacing="0">
+                                                <thead>
+                                                    <tr>
+                                                        <th style="width: 40px;">SN</th>
+                                                        <th>Email</th>
+                                                        <th>Role</th>
+                                                        <th style="width: 101px;"> Action </th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td>1</td>
+                                                        <th>jungy@gmail.com</th>
+                                                        <td>Moderator</td>
+                                                        <td>
+                                                            <a href=""><i
+                                                                    class="fa fa-edit btn btn-info btn-sm"></i></a>
+                                                            <a href=""><i
+                                                                    class="fa fa-trash-alt btn btn-danger btn-sm"></i></a>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+
+                                                <tfoot>
+                                                    <p class="text-center">No Data Found here....</p>
+                                                </tfoot>
+
+                                            </table>
+                                        </div>
                                     </div>
-                                 <!-- column end -->
-
-                                   </div> 
                                 </div>
                             </div>
+                            <!-- column end -->
                         </div>
                     </div>
-                    <!-- container-fluid -->
                 </div>
             </div>
+            <!-- container-fluid -->
         </div>
-        <!--page-content-wrapper -->
+    </div>
+    </div>
+    <!--page-content-wrapper -->
     </div>
     <!--wrapper -->
 
