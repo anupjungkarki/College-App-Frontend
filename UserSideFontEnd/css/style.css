@@ -383,3 +383,9 @@ Calender Css Start From here*/
     outline: none;
     font-size: bold;
 }
+#calendar .week .saturday_data{
+  color: #ef5151;
+}
+#calendar .week .saturday_data .date{
+  color: #ef5151;
+}
