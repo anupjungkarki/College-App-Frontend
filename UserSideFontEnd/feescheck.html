@@ -55,7 +55,7 @@
     <div class="container">
         <div class="content-wrapper">
             <div class="main-title">
-                <h3 class="title txt-black mt-5">Fee Check</h3>
+                <h3 class="title txt-black mt-5">Check Fees</h3>
             </div>
             <form class="fee-form">
                 <div class="row">
@@ -83,30 +83,62 @@
                     <div class="col-md-4">
                         <div class="form-input">
                             <label for="">
-                                Program :
+                                Semester
                             </label>
 
 
                             <div class="select-icon">
-                                <select name="" id="">
-                                    <option value="">--- Select the Program ---</option>
-                                    <option value="BACHELOR IN CIVIL ENGINEERING">BACHELOR IN CIVIL ENGINEERING
-                                    </option>
-                                    <option value="BACHELOR IN CIVIL ENGINEERING">BACHELOR OF INFORMATION TECHNOLOGY
-                                        (B.I.T.)
-                                    </option>
-                                    <option value="BACHELOR IN CIVIL ENGINEERING">BACHELOR IN COMPUTER ENGINEERING
-                                    </option>
+                               <select name="SemYearId" id="SemYearId">
+                                    <option value="">--- Select the Semester ---</option>
+                                    <option value="1">SECOND SEMESTER</option>
+                                    <option value="2">FIRST SEMESTER</option>
+                                    <option value="3">THIRD SEMESTER</option>
+                                    <option value="4">FOURTH SEMESTER</option>
+                                    <option value="5">FIFTH SEMESTER</option>
+                                    <option value="6">SIXTH SEMESTER</option>
+                                    <option value="7">SEVENTH SEMESTER</option>
+                                    <option value="8">EIGHTH SEMESTER</option>
                                 </select>
                             </div>
                         </div>
 
                     </div>
                 </div>
-                <div class="submit-btn mb-5">
+                <div class="submit-btn footer_margin">
                     <input type="submit" value="Check Gar">
                 </div>
             </form>
+            <div class="result-layout mb-3">
+                <div class="table-responsive ">
+                    <table class="table text-center">
+                        <thead class="thead-dark">
+                            <tr>
+                                <th scope="col">Semester</th>
+                                <th scope="col">Amount</th>
+
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><b>1st Semester</b></td>
+                                <td>Rs.400000</td>
+                            </tr>
+                            <tr>
+                                <td><b>2nd Semester</b></td>
+                                <td>Rs.400000</td>
+                            </tr>
+                            <tr>
+                                <td><b>3rd Semester</b></td>
+                                <td>Rs.400000</td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <p class="text-center"><b>Tero fee Baki chhaina Tiri sakis</b></p>
+                        </tfoot>
+                    </table>
+
+                </div>
+            </div>
         </div>
     </div>
 
